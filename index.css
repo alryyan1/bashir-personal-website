@@ -1,0 +1,80 @@
+.container{
+    max-width: 800px;
+    /* background-color: lightgray; */
+    margin: auto;
+    background-color: #ffffff7a;
+    color: black;
+    padding: 5px;
+    font-size: 1.3rem;
+}
+.navbar a{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+.details p {
+    display: flex;
+}
+i{
+    width: 40px;
+}
+.download{
+    margin-bottom: 5px;
+}
+
+.navbar{
+   background-color:  rgb(220 53 69 / 58%) !important;
+   
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    border: 1px solid;
+    padding: 5px;
+    box-shadow: 3px 6px 8px grey;
+    border-radius: 4px;
+    font-size: larger;
+    font-weight: bold
+}
+
+.details{
+    text-align: center;
+}
+.download{
+    text-align: center;
+}
+.btn{
+    padding: 5px;
+    background-color: lightgreen;
+    border-radius: 5px;
+    box-shadow: 2px 4px 6px lightgray;
+    text-decoration: none;
+    color: black;
+}
+img{
+    width: 70%;
+}
+@font-face {
+    font-family: 'Tajwal-Regular';
+    src: url('/Tajawal-Regular.ttf');
+}
+body{
+    font-family: 'Tajwal-Regular';
+    background-image: url('./cells.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+@media (max-width:500px) {
+    header{
+        margin-top: 5px;
+        text-align: center;
+        display: block;
+    }
+}
